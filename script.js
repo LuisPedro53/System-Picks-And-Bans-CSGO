@@ -1,5 +1,5 @@
-const team1 = "FALLEN";
-const team2 = "TRYBE";
+let team1 = prompt("Digite o nome da equipe 1:");
+let team2 = prompt("Digite o nome da equipe 2:");
 let turn = team1;
 
 let mappool = ["Train", "Mirage", "Overpass", "Inferno", "Dust2"];
