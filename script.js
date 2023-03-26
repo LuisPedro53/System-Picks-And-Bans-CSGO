@@ -13,7 +13,6 @@ const maps = document.querySelectorAll(".card");
 
 
 function choosemap(event) {
-  console.log(event.currentTarget);
   if (turn == team1) {
     turn = team2
   } else {
@@ -23,10 +22,19 @@ function choosemap(event) {
   event.currentTarget.classList.add("selected");
   event.currentTarget.removeEventListener("click", choosemap);
   event.currentTarget.querySelector(".accept").innerText = "Vetado";
-
+  const clickedmap = event.currentTarget.querySelector(".map-name").innerText;
+  mappool = mappool.filter(map => map != clickedmap);
+  if (mappool.length == 1) {
+    const decidemap = document.querySelector(".card:not(.selected)");
+    decidemap.classList.add("picked");
+    decidemap.removeEventListener("click", choosemap);
+    decidemap.classList.add("disable-hover");
+    turnText.innerText = `O mapa da partida será ${mappool[0]}`
+  }
 
 }
 
 for (let index = 0; index < maps.length; index++) {
   maps[index].addEventListener("click", choosemap);
 }
+
