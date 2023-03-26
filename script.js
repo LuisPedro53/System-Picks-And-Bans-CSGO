@@ -2,7 +2,7 @@ const team1 = "FALLEN";
 const team2 = "TRYBE";
 let turn = team1;
 
-let mappool = ["Train", "Mirage", "Cache", "Inferno", "Dust2", "Nuke"];
+let mappool = ["Train", "Mirage", "Cache", "Inferno", "Dust2"];
 
 
 const turnText = document.querySelector("#turnText");

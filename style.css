@@ -86,7 +86,7 @@ h1 {
 }
 
 .card.de_inferno::before {
-  background-image: url('images/de_inferno.jpg');
+  background-image: url('https://cdn.akamai.steamstatic.com/apps/csgo/images/inferno/beautyshot.jpg');
 }
 
 .card.de_mirage::before {
@@ -98,11 +98,11 @@ h1 {
 }
 
 .card.de_cache::before {
-  background-image: url('images/de_cache.jpg');
+  background-image: url('https://theclutch.com.br/wp-content/uploads/2019/10/1855851320_preview_1920x10803-e1570723965790.jpg');
 }
 
 .card.de_dust2::before {
-  background-image: url('images/de_dust2.jpg');
+  background-image: url('http://cdn.espn.com.br/image/wide/622_74d1d3c7-10fc-489f-8603-0ded2d4f513d.jpg');
 }
 
 .card.de_overpass::before {
