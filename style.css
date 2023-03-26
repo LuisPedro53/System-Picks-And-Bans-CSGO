@@ -90,7 +90,7 @@ h1 {
 }
 
 .card.de_mirage::before {
-  background-image: url('images/de_mirage.jpg');
+  background-image: url('https://noticias.maisesports.com.br/wp-content/uploads/2022/03/CSGO_Mirage_latest_version.jpg');
 }
 
 .card.de_nuke::before {
@@ -118,7 +118,7 @@ h1 {
 }
 
 .card.de_train::before {
-  background-image: url('Images/de_train.jpg');
+  background-image: url('https://csgogod.com.br/wp-content/uploads/2021/05/4-1170x658.jpg');
 }
 
 .card.de_cobblestone::before {
